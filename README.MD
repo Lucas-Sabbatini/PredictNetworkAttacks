@@ -1,4 +1,28 @@
-# Como rodar este projeto Python com Jupyter Notebook
+# Análise de Detecção de Intrusão em Redes usando Árvore de Decisão
+
+## Sobre o Projeto
+
+Este projeto implementa uma análise de dados para detectar intrusões em redes de computadores, focando especificamente em ataques de força bruta FTP e SSH. Utilizamos um conjunto de dados do Kaggle que contém informações sobre tráfego de rede, incluindo características como duração do fluxo, tamanho dos pacotes e taxas de transferência.
+
+### Principais Características
+- **Dataset**: IDS 2018 Intrusion CSVs (CSE-CIC-IDS2018)
+- **Classificação**: Identifica tráfego como Benigno, FTP-BruteForce ou SSH-Bruteforce
+- **Modelo**: Árvore de Decisão (ID3) com critério de entropia
+- **Acurácia**: 100% na classificação dos tipos de tráfego
+
+### Resultados
+O modelo consegue distinguir com precisão entre:
+- Tráfego normal (Benigno)
+- Ataques de força bruta FTP
+- Ataques de força bruta SSH
+
+Os resultados são visualizados através de:
+- Matriz de confusão (`matriz_confusao.png`)
+- Árvore de decisão (`arvore_decisao.png`)
+
+---
+
+## Como rodar este projeto Python com Jupyter Notebook
 
 ## Pré-requisitos
 
